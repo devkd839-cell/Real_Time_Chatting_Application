@@ -1,0 +1,52 @@
+# Compiled Java class files
+out/
+*.class
+
+# Data directory — contains generated key and user database
+# IMPORTANT: chat.key and users.dat should NOT be committed to version control.
+# The server generates them automatically on first run.
+data/chat.key
+data/users.dat
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code / Kiro
+.vscode/
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Log files
+*.log
+
+# Temp files
+*.tmp
+*.swp
